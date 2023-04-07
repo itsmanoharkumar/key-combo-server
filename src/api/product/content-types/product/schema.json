@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,38 +17,17 @@
       "required": true,
       "unique": true
     },
-    "description": {
-      "type": "text"
+    "shortcut_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::shortcut-category.shortcut-category",
+      "mappedBy": "product"
     },
-    "logo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "thumbnail": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "banner_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "shortcuts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::shortcut.shortcut",
+      "mappedBy": "product"
     }
   }
 }
