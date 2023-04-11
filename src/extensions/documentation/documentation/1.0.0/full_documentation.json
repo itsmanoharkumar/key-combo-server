@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-11T18:46:29.523Z"
+    "x-generation-date": "2023-04-11T23:00:17.266Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -215,15 +215,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -258,6 +251,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -842,15 +838,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -885,6 +874,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -1502,15 +1494,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -1545,6 +1530,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -2129,15 +2117,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -2172,6 +2153,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -2798,15 +2782,8 @@
                                                         "shortText": {
                                                           "type": "string"
                                                         },
-                                                        "keyCombo": {
+                                                        "windowsKeyCombo": {
                                                           "type": "string"
-                                                        },
-                                                        "operatingSystem": {
-                                                          "type": "string",
-                                                          "enum": [
-                                                            "mac",
-                                                            "windows"
-                                                          ]
                                                         },
                                                         "product": {
                                                           "type": "object",
@@ -2841,6 +2818,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "macKeyCombo": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -3405,15 +3385,8 @@
                                                         "shortText": {
                                                           "type": "string"
                                                         },
-                                                        "keyCombo": {
+                                                        "windowsKeyCombo": {
                                                           "type": "string"
-                                                        },
-                                                        "operatingSystem": {
-                                                          "type": "string",
-                                                          "enum": [
-                                                            "mac",
-                                                            "windows"
-                                                          ]
                                                         },
                                                         "product": {
                                                           "type": "object",
@@ -3448,6 +3421,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "macKeyCombo": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -4045,15 +4021,8 @@
                                                         "shortText": {
                                                           "type": "string"
                                                         },
-                                                        "keyCombo": {
+                                                        "windowsKeyCombo": {
                                                           "type": "string"
-                                                        },
-                                                        "operatingSystem": {
-                                                          "type": "string",
-                                                          "enum": [
-                                                            "mac",
-                                                            "windows"
-                                                          ]
                                                         },
                                                         "product": {
                                                           "type": "object",
@@ -4088,6 +4057,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "macKeyCombo": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -4652,15 +4624,8 @@
                                                         "shortText": {
                                                           "type": "string"
                                                         },
-                                                        "keyCombo": {
+                                                        "windowsKeyCombo": {
                                                           "type": "string"
-                                                        },
-                                                        "operatingSystem": {
-                                                          "type": "string",
-                                                          "enum": [
-                                                            "mac",
-                                                            "windows"
-                                                          ]
                                                         },
                                                         "product": {
                                                           "type": "object",
@@ -4695,6 +4660,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "macKeyCombo": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -5198,23 +5166,15 @@
           "data": {
             "required": [
               "shortText",
-              "keyCombo",
-              "operatingSystem"
+              "windowsKeyCombo"
             ],
             "type": "object",
             "properties": {
               "shortText": {
                 "type": "string"
               },
-              "keyCombo": {
+              "windowsKeyCombo": {
                 "type": "string"
-              },
-              "operatingSystem": {
-                "type": "string",
-                "enum": [
-                  "mac",
-                  "windows"
-                ]
               },
               "product": {
                 "oneOf": [
@@ -5237,6 +5197,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "macKeyCombo": {
+                "type": "string"
               }
             }
           }
@@ -5254,15 +5217,8 @@
               "shortText": {
                 "type": "string"
               },
-              "keyCombo": {
+              "windowsKeyCombo": {
                 "type": "string"
-              },
-              "operatingSystem": {
-                "type": "string",
-                "enum": [
-                  "mac",
-                  "windows"
-                ]
               },
               "product": {
                 "type": "object",
@@ -5330,15 +5286,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -5373,6 +5322,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -5822,6 +5774,9 @@
                     }
                   }
                 }
+              },
+              "macKeyCombo": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -5885,15 +5840,8 @@
               "shortText": {
                 "type": "string"
               },
-              "keyCombo": {
+              "windowsKeyCombo": {
                 "type": "string"
-              },
-              "operatingSystem": {
-                "type": "string",
-                "enum": [
-                  "mac",
-                  "windows"
-                ]
               },
               "product": {
                 "type": "object",
@@ -5961,15 +5909,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -6004,6 +5945,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -6453,6 +6397,9 @@
                     }
                   }
                 }
+              },
+              "macKeyCombo": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -6549,15 +6496,8 @@
               "shortText": {
                 "type": "string"
               },
-              "keyCombo": {
+              "windowsKeyCombo": {
                 "type": "string"
-              },
-              "operatingSystem": {
-                "type": "string",
-                "enum": [
-                  "mac",
-                  "windows"
-                ]
               },
               "product": {
                 "type": "object",
@@ -6625,15 +6565,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -6668,6 +6601,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -7117,6 +7053,9 @@
                     }
                   }
                 }
+              },
+              "macKeyCombo": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -7180,15 +7119,8 @@
               "shortText": {
                 "type": "string"
               },
-              "keyCombo": {
+              "windowsKeyCombo": {
                 "type": "string"
-              },
-              "operatingSystem": {
-                "type": "string",
-                "enum": [
-                  "mac",
-                  "windows"
-                ]
               },
               "product": {
                 "type": "object",
@@ -7256,15 +7188,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -7299,6 +7224,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -7748,6 +7676,9 @@
                     }
                   }
                 }
+              },
+              "macKeyCombo": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -7934,15 +7865,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -7977,6 +7901,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -8561,15 +8488,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -8604,6 +8524,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -9221,15 +9144,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -9264,6 +9180,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -9848,15 +9767,8 @@
                                                       "shortText": {
                                                         "type": "string"
                                                       },
-                                                      "keyCombo": {
+                                                      "windowsKeyCombo": {
                                                         "type": "string"
-                                                      },
-                                                      "operatingSystem": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "mac",
-                                                          "windows"
-                                                        ]
                                                       },
                                                       "product": {
                                                         "type": "object",
@@ -9891,6 +9803,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "macKeyCombo": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",

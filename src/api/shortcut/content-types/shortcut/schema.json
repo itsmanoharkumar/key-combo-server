@@ -16,18 +16,9 @@
       "type": "string",
       "required": true
     },
-    "keyCombo": {
+    "windowsKeyCombo": {
       "type": "string",
       "required": true
-    },
-    "operatingSystem": {
-      "type": "enumeration",
-      "enum": [
-        "mac",
-        "windows"
-      ],
-      "required": true,
-      "default": "windows"
     },
     "product": {
       "type": "relation",
@@ -40,6 +31,9 @@
       "relation": "manyToOne",
       "target": "api::shortcut-category.shortcut-category",
       "inversedBy": "shortcuts"
+    },
+    "macKeyCombo": {
+      "type": "string"
     }
   }
 }
