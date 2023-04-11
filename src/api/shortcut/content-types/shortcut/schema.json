@@ -13,17 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "shortText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "keyCombo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "operatingSystem": {
       "type": "enumeration",
       "enum": [
         "mac",
         "windows"
-      ]
+      ],
+      "required": true,
+      "default": "windows"
     },
     "product": {
       "type": "relation",
