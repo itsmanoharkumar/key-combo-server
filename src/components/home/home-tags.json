@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_home_tags",
+  "info": {
+    "displayName": "homeTags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pageId": {
+      "type": "string"
+    },
+    "pageType": {
+      "type": "enumeration",
+      "enum": [
+        "product",
+        "productCategory"
+      ]
+    },
+    "weight": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}
