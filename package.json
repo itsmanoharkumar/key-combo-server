@@ -18,6 +18,8 @@
     "@strapi/provider-upload-local": "^4.9.1",
     "@strapi/strapi": "4.9.0",
     "better-sqlite3": "8.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
     "pg": "8.8.0",
     "strapi-provider-upload-azure-storage": "^3.1.3"
   },
