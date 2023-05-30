@@ -34,6 +34,9 @@
     },
     "macKeyCombo": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

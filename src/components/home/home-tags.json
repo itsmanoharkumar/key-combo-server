@@ -27,9 +27,17 @@
         "productCategory"
       ]
     },
-    "weight": {
-      "type": "integer",
-      "default": 1
+    "isFeatured": {
+      "type": "boolean"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "default": "small"
     }
   }
 }
