@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-09T00:09:01.429Z"
+    "x-generation-date": "2023-06-19T21:24:41.642Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1929,6 +1929,12 @@
                                                   "description": {
                                                     "type": "string"
                                                   },
+                                                  "isCommand": {
+                                                    "type": "boolean"
+                                                  },
+                                                  "command": {
+                                                    "type": "string"
+                                                  },
                                                   "createdAt": {
                                                     "type": "string",
                                                     "format": "date-time"
@@ -3192,6 +3198,12 @@
                                                     "description": {
                                                       "type": "string"
                                                     },
+                                                    "isCommand": {
+                                                      "type": "boolean"
+                                                    },
+                                                    "command": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4260,6 +4272,12 @@
               },
               "description": {
                 "type": "string"
+              },
+              "isCommand": {
+                "type": "boolean"
+              },
+              "command": {
+                "type": "string"
               }
             }
           }
@@ -4430,6 +4448,12 @@
                                                     "type": "string"
                                                   },
                                                   "description": {
+                                                    "type": "string"
+                                                  },
+                                                  "isCommand": {
+                                                    "type": "boolean"
+                                                  },
+                                                  "command": {
                                                     "type": "string"
                                                   },
                                                   "createdAt": {
@@ -5268,6 +5292,12 @@
           "description": {
             "type": "string"
           },
+          "isCommand": {
+            "type": "boolean"
+          },
+          "command": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -5547,6 +5577,12 @@
                                                     "type": "string"
                                                   },
                                                   "description": {
+                                                    "type": "string"
+                                                  },
+                                                  "isCommand": {
+                                                    "type": "boolean"
+                                                  },
+                                                  "command": {
                                                     "type": "string"
                                                   },
                                                   "createdAt": {

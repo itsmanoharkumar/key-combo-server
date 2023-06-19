@@ -37,6 +37,13 @@
     },
     "description": {
       "type": "text"
+    },
+    "isCommand": {
+      "type": "boolean",
+      "default": false
+    },
+    "command": {
+      "type": "string"
     }
   }
 }
